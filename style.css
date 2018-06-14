@@ -1,6 +1,7 @@
 body{
     background: url('https://subtlepatterns.com/patterns/dust_scratches.png');
     overflow-x: hidden;
+    padding-bottom: 50px;
 }
 
 .banner-container{
@@ -39,7 +40,8 @@ body{
 }
 
 #info{
-    margin-top: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 #about{
     text-align: center;
@@ -50,6 +52,11 @@ body{
     font-size: large;
 }
 @media screen and (min-width: 48em){
+    #info{
+        margin-top: 3vh;
+        width: 80%;
+        margin-bottom: 3vh;
+    }
     #about{
         text-align: left;
         padding-left: 1vw;
@@ -58,13 +65,19 @@ body{
     #about-title{
         font-size: x-large;
     }
+    .container{
+        width: 90%;
+    }
 }
-
 
 
 .card{
     position: relative;
     padding: 2px;
+    transition: all .2s ease-in-out; 
+}
+.card:hover, .card:focus{
+    transform: scale(.96);
 }
 .img-label{
     text-align: center; 
