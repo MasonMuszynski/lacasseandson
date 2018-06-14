@@ -76,7 +76,7 @@ body{
     padding: 2px;
     transition: all .2s ease-in-out; 
 }
-.card:hover, .card:focus{
+.card:hover, .card:focus, .card:active{
     transform: scale(.96);
 }
 .img-label{
