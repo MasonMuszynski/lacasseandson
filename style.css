@@ -43,6 +43,8 @@ body{
 }
 #about{
     text-align: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 #about-title{
     font-size: large;
@@ -50,8 +52,17 @@ body{
 @media screen and (min-width: 48em){
     #about{
         text-align: left;
+        padding-left: 1vw;
+        padding-right: 1vw;
     }
     #about-title{
         font-size: x-large;
     }
+}
+
+
+.card{
+    width: 100%;
+    height: 40vmin;
+    background-size: cover;
 }
