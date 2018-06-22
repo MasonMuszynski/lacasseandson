@@ -70,14 +70,32 @@ body{
     }
 }
 
+@media screen and (max-width: 64em){
+    #services{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .card{
+        margin-bottom: 5px;
+    }
+}
 
 .card{
     position: relative;
     padding: 2px;
     transition: all .2s ease-in-out; 
+    
 }
-.card:hover, .card:focus, .card:active{
-    transform: scale(.96);
+.card:hover, .card:focus{
+    /* transform: scale(.96); */
+    opacity: .8;
+} 
+.card:active{
+    transform: scale(.95);
+}
+
+.img-port{
+    border-radius: 5px;    
 }
 .img-label{
     text-align: center; 
@@ -92,3 +110,16 @@ body{
     text-shadow: 2px 2px 15px #000000;
     /* margin-top: 20vmin; */
 }
+.modal-content{
+    background-color: rgba(1, 1, 1, 0);
+    position: relative;
+}
+.modal-backdrop{
+    opacity:0.8 !important;
+}
+.img-comparison{
+    padding: 5px;
+    border-radius: 25px;
+}
+
+/* MODAL CSS*/
