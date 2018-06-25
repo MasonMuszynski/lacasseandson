@@ -26,6 +26,7 @@
 #contact{
     font-size: small;
 }
+
 @media screen and (min-width: 48em){
     #about{
         text-align: left;
@@ -37,7 +38,6 @@
         font-size: inherit;
     }
 }
-
 .img-disp{
     padding: 20px;
 }
