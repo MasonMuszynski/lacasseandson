@@ -122,4 +122,32 @@ body{
     border-radius: 25px;
 }
 
+.logo-image {
+    position: absolute;
+    top: 50%;
+    left: 5rem;         /* or whatever “left” offset you prefer */
+    transform: translateY(-50%);
+    z-index: 1000;      /* ensure the logo is on top of the slides */
+    /*width: 200px;       !* example width, adjust as needed *!*/
+    /*height: auto;       !* preserve aspect ratio *!*/
+    height: 45vmin;
+
+
+
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*z-index: 2;*/
+}
+
+@media (max-width: 768px) {
+    .logo-image {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50vmin;
+        height: auto;
+        /* This moves the element back by 50% of its width, perfectly centering it */
+    }
+}
+
+
 /* MODAL CSS*/
