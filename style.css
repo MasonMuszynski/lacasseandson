@@ -125,18 +125,13 @@ body{
 .logo-image {
     position: absolute;
     top: 50%;
-    left: 5rem;         /* or whatever “left” offset you prefer */
-    transform: translateY(-50%);
-    z-index: 1000;      /* ensure the logo is on top of the slides */
-    /*width: 200px;       !* example width, adjust as needed *!*/
-    /*height: auto;       !* preserve aspect ratio *!*/
-    height: 45vmin;
+    z-index: 1000;
 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vmin;
+    height: auto;
 
-
-    /*height: 100%;*/
-    /*position: absolute;*/
-    /*z-index: 2;*/
 }
 
 @media (max-width: 768px) {
